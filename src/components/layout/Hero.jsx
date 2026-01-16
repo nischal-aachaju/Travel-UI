@@ -19,12 +19,11 @@ const Hero = () => {
           <button className=' px-6 h-12 rounded-3xl shrink-0 bg-white  font-semibold text-gray-800 transition-all text-xl duration-300 ease-out
     hover:-translate-y-1 hover:shadow-xl
     active:translate-y-0 active:shadow-md'>Book now</button>
-          <button className='px-6 h-12 rounded-3xl shrink-0 border-2  
-            [text-shadow:0_4px_16px_rgba(0,0,0,0.5)] border-white font-semibold text-white text-xl  transition-all duration-300 ease-out
+          <button className='px-6 h-14 rounded-3xl shrink-0 border-4 [text-shadow:0_4px_16px_rgba(0,0,0,0.5)] border-white font-semibold text-white text-xl  transition-all duration-300 ease-out
     hover:-translate-y-1 hover:bg-white/10
     hover:shadow-[0_10px_30px_rgba(0,0,0,0.25)]
     active:translate-y-0
-    [text-shadow:0_4px_16px_rgba(0,0,0,0.5)]'>Explore destinations</button>
+ '>Explore destinations</button>
         
         </div>
         </div>
