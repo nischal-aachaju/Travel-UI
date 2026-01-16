@@ -6,12 +6,12 @@ import img3 from "/src/assets/images/Body3/img3.avif"
 import { Footprints,Ship } from 'lucide-react'
 const Body3 = () => {
   const card = [
-    {
-      logo: <Ship size={30}/>,
-      title: "Island Hopper  Adventure",
-      decs: "accusantium nemo iste quasi cum expedita dolorum a ipsa ab cupiditate, facilis similique? Illum, quod. ",
-      img: img1
-    },
+    // {
+    //   logo: <Ship size={30}/>,
+    //   title: "Island Hopper  Adventure",
+    //   decs: "accusantium nemo iste quasi cum expedita dolorum a ipsa ab cupiditate, facilis similique? Illum, quod. ",
+    //   img: img1
+    // },
       {
       logo: <Ship size={30}/>,
       title: "South Nepal Landscape",
@@ -27,15 +27,15 @@ const Body3 = () => {
   ]
 
   return (
-    <div className='h-100 w-full  flex text-white items-center px-14 gap-6 '>
-      <div className='bg-gray-600 w-9/20 h-90 p-12 rounded-2xl flex justify-between flex-col mr-4'>
+    <div className='h-100 w-full  flex text-white items-center px-28 gap-6 '>
+      <div className='bg-[#8d9caf] w-9/20 h-90 p-12 rounded-2xl flex justify-between flex-col mr-4'>
         <div className=' flex flex-col gap-4'>
           <h3 className='text-4xl font-semibold '>Tour Packages</h3>
           <p className='text-xl'>Affordable customizable, and unforgettable adventures.</p>
         </div>
-        <button className=' bg-gray-900 w-fit  rounded-2xl py-1 px-4'>Browse all packages </button>
+        <button className=' bg-gray-700/90 w-fit  rounded-3xl py-2 px-5'>Browse all packages </button>
       </div>
-      <div className=' w-11/20 h-90 flex  gap-6'>
+      <div className=' w-11/20 h-90 flex items-center justify-evenly gap-6'>
         {card.map((e, idx) => {
           return <TourPackagesCard key={idx} e={e} />
         })}
