@@ -2,7 +2,7 @@ import React from 'react'
 import { Copyright } from 'lucide-react'
 const Footer = () => {
   return (
-    <div className='h-60 w-full text-sm text-gray-800  flex justify-center items-center '>
+    <div className='h-60 w-full text-sm text-gray-800 border-t-bg-gray-300 border-t-gray-600-2 flex justify-center items-center '>
       <div className='h-full w-1/2  flex justify-between py-10 px-20 flex-col'>
         <div className='flex flex-col gap-3'>
           <h2 className='text-shadow-2xs text-shadow-black text-3xl font-bold fo'>WONDER</h2>
