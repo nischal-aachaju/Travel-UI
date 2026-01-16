@@ -4,7 +4,7 @@ import bg from "../../assets/images/bg.jpg"
 const Hero = () => {
   return (
     <section className='w-full h-screen px-16 pb-25'>
-      <div className="w-full h-full  rounded-4xl flex flex-col justify-center items-center  gap-1" style={{ backgroundImage: `url(${bg})` }}>
+      <div className="w-full h-full  rounded-3xl flex flex-col justify-center items-center  gap-1" style={{ backgroundImage: `url(${bg})` }}>
 
         <div className="ml-24 max-w-225 flex flex-col gap-4">
           <h1  className="text-white font-bold text-[10rem] leading-none p-0 h-fit [text-shadow:0_8px_30px_rgba(0,0,0,0.45)]">
