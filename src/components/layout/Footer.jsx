@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='h-full w-1/3  flex justify-between py-10 px-20 flex-col'>
         <div className='flex flex-col gap-3'>
           <h2 className='   text-shadow-black text-3xl font-bold fo'>WANDER</h2>
-          <p>There is no risk-free trading</p>
+          <p>There is no risk travelling.</p>
         </div>
         <button className='w-fit flex bg-white border rounded-xl shadow-lg px-3  py-1'><div className='bg-green-400  shadow-black h-4 w-4 rounded-full mt-0.5 mr-2'></div>All system opertional</button>
       </div>
