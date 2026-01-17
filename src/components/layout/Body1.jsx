@@ -6,17 +6,17 @@ import Follow from '../common/Follow'
 const Body1 = () => {
   const book = [
     {
-      img: <Map color="#4a5565" size={120} />,
+      img: <Map color="#35534b" size={120} />,
       title: "Local Expertise",
       desc: "Our filipino travle experts craft unique experiences with insider knowledge you won't find in typical hours"
     },
     {
-      img: <CalendarDays color="#4a5565" size={120} />,
+      img: <CalendarDays color="#35534b" size={120} />,
       title: "All-In-One Booking",
       desc: "Book everything on one place---easy,fast and hassel-free,weather for quick gateways or planned vacations "
     },
     {
-      img: <Headphones color="#4a5565" size={120} />,
+      img: <Headphones color="#35534b" size={120} />,
       title: "24/7 Support",
       desc: "We're here anytime,anywhere. Get real-time help anytime you need it before during or after your trip."
     }
