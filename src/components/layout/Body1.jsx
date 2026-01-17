@@ -44,7 +44,7 @@ const Body1 = () => {
     <div className='h-140 w-full px-32  pb-20 flex justify-center items-center'>
       <div className='h-full w-6/10 flex flex-col justify-between'>
         <div className=' flex flex-col gap-5'>
-          <h2 className='font-semibold text-4xl'> Why Thousads of Travelers Choose <br /> WANDER.ph for Their Philippine Adventures</h2>
+          <h2 className='font-semibold text-4xl'>Why Thousads of Travelers Choose <br /> WANDER.ph for Their Philippine Adventures</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur iure quae libero reprehenderit commodi? Ad dignissimos id tempora sit, iste, ut officia veniam facere, obcaecati rerum harum suscipit repudiandae optio.</p>
           <div className='cursor-pointer  flex gap-8 justify-center'>
             <Instagram strokeWidth={2} />
