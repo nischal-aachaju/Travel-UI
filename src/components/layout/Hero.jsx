@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="w-full h-full  rounded-3xl flex flex-col justify-center items-center  gap-1" style={{ backgroundImage: `url(${bg})` }}>
 
         <div className="ml-24 max-w-225 flex flex-col gap-4">
-          <h1  className="text-white font-bold text-[10rem] leading-none p-0 h-fit [text-shadow:0_8px_30px_rgba(0,0,0,0.45)]">
+          <h1  className="select-none text-white font-bold text-[10rem] leading-none p-0 h-fit [text-shadow:0_8px_30px_rgba(0,0,0,0.45)]">
           WANDER
           </h1>
 
