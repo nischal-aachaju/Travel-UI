@@ -1,4 +1,4 @@
-
+import Button from "../common/Button"
 
 const navItems = ["Home", "Destinations", "Packages", "About Us"]
 
@@ -35,8 +35,7 @@ const Navbar = () => {
           className="h-[50%] w-2/3 bg-gray-200 rounded-full px-4 text-sm outline-none"
         />
 
-        <button className='cursor-pointer px-6  py-2 rounded-4xl w-fit shrink-0 bg-gray-800 font-semibold text-gray-200 hover:scale-98'>Book now</button>
-      </div>
+        <Button text="Book now" />      </div>
 
     </nav>
   )

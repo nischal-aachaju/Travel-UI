@@ -3,7 +3,8 @@ import TourPackagesCard from '../common/TourPackagesCard'
 import img1 from "/src/assets/images/Body3/img1.jpg"
 import img2 from "/src/assets/images/Body3/img2.jpg"
 import img3 from "/src/assets/images/Body3/img3.jpg"
-import { Footprints,Ship } from 'lucide-react'
+import { Footprints, Ship } from 'lucide-react'
+import Button from '../common/Button'
 const Body3 = () => {
   const card = [
     // {
@@ -12,18 +13,18 @@ const Body3 = () => {
     //   decs: "accusantium nemo iste quasi cum expedita dolorum a ipsa ab cupiditate, facilis similique? Illum, quod. ",
     //   img: img1
     // },
-     {
-    logo: <Ship size={30}  />,
-    title: "Southern Landscape",
-    decs: "A peaceful journey through scenic southern lands, filled with open horizons & calm surroundings.",
-    img: img2
-  },
-  {
-    logo: <Footprints size={30} />,
-    title: "Northern Highland Escape",
-    decs: "An adventurous escape into rugged northern highlands, where raw nature await exploration.",
-    img: img3
-  },
+    {
+      logo: <Ship size={30} />,
+      title: "Southern Landscape",
+      decs: "A peaceful journey through scenic southern lands, filled with open horizons & calm surroundings.",
+      img: img2
+    },
+    {
+      logo: <Footprints size={30} />,
+      title: "Northern Highland Escape",
+      decs: "An adventurous escape into rugged northern highlands, where raw nature await exploration.",
+      img: img3
+    },
   ]
 
   return (
@@ -33,7 +34,7 @@ const Body3 = () => {
           <h3 className='text-4xl font-semibold '>Tour Packages</h3>
           <p className='text-xl'>Affordable customizable, and unforgettable adventures.</p>
         </div>
-        <button className=' bg-gray-800 font-semibold w-fit  rounded-3xl py-2 px-5'>Browse all packages </button>
+        <Button text="Browse all packages" />
       </div>
       <div className=' w-11/20 h-90 flex items-center justify-evenly gap-6'>
         {card.map((e, idx) => {
