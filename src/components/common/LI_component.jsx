@@ -11,7 +11,8 @@ const LI_compont = ({text}) => {
          after:origin-left after:scale-x-0
          after:bg-black
          after:transition-transform after:duration-200
-         hover:after:scale-x-100" >{text}</a>
+         hover:after:scale-x-100
+         cursor-pointer" >{text}</a>
   )
 }
 
