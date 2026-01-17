@@ -7,7 +7,7 @@ const LI_compont = ({text}) => {
             relative
          after:content-['']
          after:absolute after:left-0 after:bottom-0
-         after:h-0.5 after:w-full
+         after:h-px after:w-full
          after:origin-left after:scale-x-0
          after:bg-black
          after:transition-transform after:duration-200

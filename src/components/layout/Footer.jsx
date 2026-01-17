@@ -1,6 +1,6 @@
 import React from 'react'
 import { Copyright } from 'lucide-react'
-import LI_compont from '../common/LI_compont'
+import LI_compont from '../common/LI_component'
 const Footer = () => {
   return (
     <div className='h-60 w-full text-sm text-gray-800 border-t-bg-gray-300 border-t-gray-600-2 flex justify-center items-center '>
