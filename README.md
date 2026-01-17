@@ -1,7 +1,1 @@
-#  Travel UI
-## Niyam
-- navbar
-- hero
-## Nischal 
-- footer
-- body3
+### Nothing to see Here 😘
