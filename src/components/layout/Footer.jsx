@@ -6,7 +6,7 @@ const Footer = () => {
     <div className='h-60 w-full text-sm text-gray-800 border-t-bg-gray-300 border-t-gray-600-2 flex justify-center items-center '>
       <div className='h-full w-1/3  flex justify-between py-10 px-20 flex-col'>
         <div className='flex flex-col gap-3'>
-          <h2 className='   text-shadow-black text-3xl font-bold fo'>WONDER</h2>
+          <h2 className='   text-shadow-black text-3xl font-bold fo'>WANDER</h2>
           <p>There is no risk-free trading</p>
         </div>
         <button className='w-fit flex bg-white border rounded-xl shadow-lg px-3  py-1'><div className='bg-green-400  shadow-black h-4 w-4 rounded-full mt-0.5 mr-2'></div>All system opertional</button>
@@ -33,9 +33,9 @@ const Footer = () => {
           </ul>
         </div>
         <div className='w-full h-20 flex justify-end items-center gap-6 pr-10 '>
-          <p className=' flex items-center gap-1'><Copyright className='pt-1' size={16} color="#000" />2026 wonder. All right reserved</p>
-          <p>Privacy Policy</p>
-          <p>Terms of Use</p>
+          <p className='cursor-pointer flex items-center gap-1'><Copyright className='pt-1' size={16} color="#000" />2026 wonder. All right reserved</p>
+          <p className='cursor-pointer'>Privacy Policy</p>
+          <p className='cursor-pointer'>Terms of Use</p>
         </div>
       </div>
 
