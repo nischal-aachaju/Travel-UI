@@ -1,5 +1,5 @@
 import Button from "../common/Button"
-
+import { Search } from "lucide-react"
 const navItems = ["Home", "Destinations", "Packages", "About Us"]
 
 const Navbar = () => {
@@ -28,15 +28,17 @@ const Navbar = () => {
         })}
       </ul>
 
-      <div className="w-4/10 h-full  flex justify-end gap-5 items-center">
+      <div className=" relative  w-4/10 h-full  flex justify-end  items-center mr-8 ">
         <input
           type="text"
           placeholder="Search for a place, city or a destination"
           className="h-[50%] w-2/3 bg-gray-200 rounded-full px-4 text-sm outline-none"
         />
+        <Search className=" absolute right-4" size={20} color="#000" strokeWidth={1.5} />
 
-        <Button text="Book now" />      </div>
 
+      </div>
+      <Button text="Book now" />
     </nav>
   )
 }
