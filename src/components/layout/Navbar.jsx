@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 const navItems = ["Home","Destinations", "Packages", "About Us"]
 
