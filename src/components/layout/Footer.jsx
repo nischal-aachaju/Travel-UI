@@ -8,7 +8,7 @@ const Footer = () => {
           <h2 className='text-shadow-2xs text-shadow-black text-3xl font-bold fo'>WONDER</h2>
           <p>There is no risk-free trading</p>
         </div>
-        <button className='w-fit flex bg-white border rounded-xl shadow-lg px-3  py-1'><div className='bg-green-400  shadow-black h-4 w-4 rounded-full mt-1 mr-2'></div>All system opertional</button>
+        <button className='w-fit flex bg-white border rounded-xl shadow-lg px-3  py-1'><div className='bg-green-400  shadow-black h-4 w-4 rounded-full mt-0.5 mr-2'></div>All system opertional</button>
       </div>
       <div className='h-full w-1/2  flex flex-col '>
         <div className='w-full h-40 flex justify-evenly items-start pt-4 font-sans'>
