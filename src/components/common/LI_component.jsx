@@ -1,8 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const LI_compont = ({ text }) => {
   return (
-    <a className="
+    <a
+      className="
             w-fit
             relative
          after:content-['']
@@ -12,8 +13,11 @@ const LI_compont = ({ text }) => {
          after:bg-black
          after:transition-transform after:duration-200
          hover:after:scale-x-100
-         cursor-pointer" >{text}</a>
-  )
-}
+         cursor-pointer"
+    >
+      {text}
+    </a>
+  );
+};
 
-export default LI_compont
+export default LI_compont;
