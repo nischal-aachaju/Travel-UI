@@ -1,6 +1,6 @@
 
 
-const Follow = ({e}) => {
+const Follow = ({ e }) => {
   return (
     <div className=' flex  flex-col items-center '>
       <div className=' bg-[#a3c9bc] h-12 w-12 rounded-full flex justify-center items-center mb-6'>{e.img}</div>

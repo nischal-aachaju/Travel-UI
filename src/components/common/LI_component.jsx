@@ -1,8 +1,8 @@
 import React from 'react'
 
-const LI_compont = ({text}) => {
+const LI_compont = ({ text }) => {
   return (
-            <a className="
+    <a className="
             w-fit
             relative
          after:content-['']
