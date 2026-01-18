@@ -8,7 +8,7 @@ import Button from "../common/Button"
 
 
 
- const cards = [
+const cards = [
   {
     price: "4999",
     title: "El Nido",
@@ -50,24 +50,24 @@ import Button from "../common/Button"
 const Body2 = () => {
   return (
     <div className=' h-screen w-full flex justify-center items-center  '>
-      <div className=' h-9/10 w-9/10 bg-gray-200 rounded-3xl '> 
+      <div className=' h-9/10 w-9/10 bg-gray-200 rounded-3xl '>
 
         <div className=' w-full h-[20%] flex'>
           <div className='w-1/2 h-full  flex items-center font-bold text-2xl p-16'><h1>Top Destinations</h1></div>
           <div className='w-1/2 h-full flex items-center pr-16 pt-16 pb-16' ><p>From island escapes to cool mountain towns, discover where your next journey will take you—explore hidden gems, iconic destinations, and unforgettable experiences.</p></div>
         </div>
         <div className=' w-full h-[60%] px-16  flex justify-start items-center gap-10 flex-wrap '>
-            {cards.map((e,idx)=>{
-              return <Card e={e} key={idx}/>
-              
-            })}
+          {cards.map((e, idx) => {
+            return <Card e={e} key={idx} />
+
+          })}
         </div>
         <div className=' w-full h-[20%] flex justify-start items-center px-16 shrink-0'>
-            <Button text="Book now"/>
-      
+          <Button text="Book now" />
+
         </div>
       </div>
-      
+
     </div>
   )
 }
